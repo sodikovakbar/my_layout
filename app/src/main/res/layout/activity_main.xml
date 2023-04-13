@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/stand"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/list"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="18sp">
+
+            <TableRow
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:text="S no."
+                    android:textColor="@color/white"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:text="Product"
+                    android:textColor="@color/white"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Apple"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Orange"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Tomato"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Carrot"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Banana"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Kiwi"
+                    android:textSize="27sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:text="Category"
+                    android:textColor="@color/white"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Fruits"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Fruits"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Vagetable"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Vagetable"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Fruits"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Fruits"
+                    android:textSize="27sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:text="Price"
+                    android:textColor="@color/white"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="200"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="80"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textSize="27sp" />
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+
+                <TextView
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="150"
+                    android:textSize="27sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
